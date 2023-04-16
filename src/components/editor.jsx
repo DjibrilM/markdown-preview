@@ -5,8 +5,6 @@ import { useState } from "react";
 
 
 const Editor = () => {
-
-
     return ;
 };
 
