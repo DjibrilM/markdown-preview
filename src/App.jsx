@@ -56,11 +56,14 @@ function App() {
         </div>
 
         {editorMode ?
+          //used for collecting markdown scripts
           <section className="px-9 py-5">
             <textarea defaultValue={editorValue} onChange={(e) => setEditorValue(e.target.value)} name="" id="" cols="30" rows="10" className="w-full min-h-[550px] text-sm h-full p-2 outline-none border-none" placeholder="Edit">
             </textarea>
           </section>
           :
+          
+          //used for displaying collectd markdown scripts 
           <section className="w-full h-full min-h-[600px] px-9 py-5">
             {!isPending ? <MarkdownPreview className="markdownPreview" source={editorValue} /> : <p>...is Loading</p>}
           </section>
