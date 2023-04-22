@@ -55,7 +55,8 @@ function App() {
           </div>
         </div>
 
-        {/* show loading component while switching views  */}
+
+        {/* show loading indicator while switching views  */}
         {isPending ? <p className='m-4'>...loading</p> :
           <>
             {editorMode ?
@@ -71,6 +72,7 @@ function App() {
               </section>
             }
           </>
+
         }
       </section>
     </div>
