@@ -65,7 +65,6 @@ function App() {
                 </textarea>
               </section>
               :
-
               //used for displaying collectd markdown scripts 
               <section className="w-full h-full min-h-[600px] px-9 py-5">
                 <MarkdownPreview className="markdownPreview" source={editorValue} />
