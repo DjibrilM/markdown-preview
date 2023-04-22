@@ -63,7 +63,7 @@ function App() {
           </section>
           :
           
-          //used for displaying collectd markdown scripts 
+          //used for displaying collected markdown scripts 
           <section className="w-full h-full min-h-[600px] px-9 py-5">
             {!isPending ? <MarkdownPreview className="markdownPreview" source={editorValue} /> : <p>...is Loading</p>}
           </section>
