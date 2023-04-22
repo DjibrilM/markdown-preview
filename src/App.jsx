@@ -23,7 +23,6 @@ function App() {
     }
   }
 
-
   return (
     <div className="App w-full min-h-screen bg-gray-100 pt-10">
       <section className="max-w-[900px] relative overflow-hidden min-h-[600px] bg-white rounded-md border m-auto">
